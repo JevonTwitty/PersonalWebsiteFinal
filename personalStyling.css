@@ -25,30 +25,33 @@
 }
 
 .header-containers {
-    border-radius: 7%;
-    display: block;
+    width: max-content;
+    text-decoration: none;
+    border-radius: 5px;
     padding: 10px;
     transition: transform ease 0.5s, box-shadow ease 0.5s, padding ease 0.5s, margin-bottom ease 0.5s;
     margin-bottom: 20vh;
-
 }
 
 .header-containers:hover {
-    margin-bottom: 344px;
+    margin-bottom: 19vh;
     padding: 13px;
     box-shadow: 3px 3px rgb(38, 0, 79), 6px 6px rgb(72, 0, 195), 9px 9px rgb(179, 0, 255);
     background-color: rgba(9, 14, 24, 0.9);
 }
 
 .header-buttons {
+    margin-left: 25px;
     flex: 1;
     display: flex;
 }
 
 .headers {
-    font-size: 20px;
+    text-decoration: none;
+    font-size: 2.3em; 
+    margin: .67em 0;
     color: white;
-    font-weight: 700;
+    font-weight: 100;
 }
 
 #introduction {
@@ -58,11 +61,13 @@
     flex: 7;
     align-items: center;
     text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #introduction-first {
     font-weight: 300;
-    font-size: 70px;
+    font-size: 90px;
     color: white;
 }
 
@@ -73,7 +78,7 @@
 
 #introduction-second {
     color: white;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 100;
 }
 
@@ -151,7 +156,7 @@ a#scroll-button:after {
     align-content: center;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1300px) {
     #welcome {
       flex-direction: column;
       align-items: center;
