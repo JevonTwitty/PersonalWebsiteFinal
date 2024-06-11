@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jevon Twitty</title>
+        <link rel="stylesheet" href="personalStyling.css" type="text/css">
+    </head>
+    <body id="container">
+        <div id="header">
+            <div id="header-title">
+                <div style="display: block; padding: 10px;">
+                    <text class="headers">Jevon Twitty</text>
+                </div>
+            </div>
+            <div class="header-buttons">
+                <a class="header-containers" href="#profile-background">
+                    <text class="headers">About Me</text>
+                </a>
+            </div>
+            <div class="header-buttons">
+                <a class="header-containers" href="#work-experience">
+                    <text class="headers">Experience</text>
+                </a>
+            </div>
+            <div class="header-buttons">
+                <a class="header-containers" href="#projects">
+                    <text class="headers">Projects</text>
+                </a>
+            </div>
+        </div>
+        <div id="introduction">
+            <div>
+                <text id="introduction-first">Hello, I'm <text id="introduction-first-inner">Jevon Twitty!</text></text>
+                <text id="introduction-second"><br>I'm a second-year computer science student at <text id="introduction-second-inner">Georgia Tech</text></text>
+            </div>
+            <div style="margin-top: 20vh; flex: 1; display: flex; justify-content: center; align-items: center;">
+                <a id="scroll-button"></a>
+            </div>
+        </div>
+        <div id="welcome">
+            <div id="profile-background">
+                <img src="assets/Screenshot 2024-06-10 at 4.35.33 AM.png" style="width: 100%; min-width: 300px; max-width: 600px; border-radius: 100%; border: double 1px violet; box-shadow: 37px 37px 37px #171717;">
+            </div>
+            <div style="flex: 2;">
+                <text style="font-size: 70px; color: white;">Welcome to my personal website!</text>
+                <div style="max-width: 1000px; margin-top: 30px;">
+                    <text style="color: rgb(170 166 195); font-size: x-large;">
+                        Hello, my name is Jevon Twitty, and I am a second-year computer science student at Georgia Tech. My academic journey thus far has been both challenging and rewarding, fueling my passion for technology and innovation.<br><br>
+
+                        I have a strong interest in software development, particularly in the areas of artificial intelligence and machine learning. The idea of creating intelligent systems that can learn and adapt fascinates me, and I am eager to contribute to advancements in this field. Additionally, I am drawn to cybersecurity and the importance of protecting data and systems in our increasingly digital world.<br><br>
+                        
+                        My career goal is to become a proficient software engineer with a deep understanding of AI and cybersecurity. I aim to work on cutting-edge projects that push the boundaries of what technology can achieve while ensuring the safety and integrity of digital systems. Through internships and collaborative projects, I hope to gain practical experience and build a robust skill set that will prepare me for a successful career in the tech industry.<br><br>
+                        
+                        At Georgia Tech, I am actively involved in various clubs and organizations that align with my interests, and I continually seek opportunities to learn and grow both academically and professionally. I am excited about the future and look forward to making meaningful contributions to the field of computer science.
+                    </text>
+                </div>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 200px;">
+            <div style="margin-bottom: 50px;">
+                <text style="color: white; font-size: 7vw; text-shadow: 7px 7px 7px blueviolet;">Get in touch with me</text>
+            </div>
+            <nav id="contact">
+                <a id="contact-box-left" href="https://www.linkedin.com/in/jevon-twitty-4a13a928b/" target="_blanc">
+                    <img src="assets/LI-Bug.svg.original.svg" class="contact-links">
+                </a>
+                <a id="contact-box-middle" href="https://github.com/JevonTwitty" target="_blanc">
+                    <img src="assets/25231.png" class="contact-links">
+                </a>
+                <a id="contact-box-right" href="mailto: twittyjevon@gmail.com">
+                    <img src="assets/email.png" class="contact-links">
+                </a>
+            </nav>
+        </div>
+        <div id="work-experience">
+            <div>
+                <text id="work-experience-title">Work Experience</text>
+            </div>
+            <div id="jobs">
+                <div class="experience">
+                    <text id="u-market">UMarket</text>
+                    <text style="color: white; font-size: xx-large;">
+                        U-Market – Chief Technology Officer | Atlanta, GA			        February 2024 – present<br><br>
+                           •	Spearheaded the development of the front-end user interface and back-end infrastructure and applications within U-Market, using JavaScript, React Native, Typescript, and Firebase.<br><br>
+                           •	Collaborated with other teams, such as marketing and sales to seamlessly implement the features most necessary for the web-app's success.
+                    </text>
+                </div>
+                <div class="experience">
+                    <img src="assets/drone-g2c43d74a1_1920_0.jpg" id="better-place-drones">
+                    <text style="color: white; font-size: xx-large;">
+                        Better Place Drones VIP – Deployed Automation and Controls Team | Atlanta, GA                            Spring, 2024<br><br>
+                           •	Worked in a team to develop advanced control logic for executing automated flights of the X8 drone for wildfire firefighting operations.<br><br>
+                           •	Contributed to the development of the controls necessary for integrating new hardware into the flight controller for the drones.
+
+                    </text>
+                </div>
+
+            </div>
+        </div>
+        <div id="projects">
+            <div>
+                <text style="font-size: 70px; font-weight: 700; color: white;">Projects</text>
+            </div>
+            <div class="project">
+                <text style="color:white; font-size: 45px; margin-bottom: 30px;">Drone Flight Plan Generator</text>
+                <text style="color: white; font-size: xx-large;">
+                    A python script capable of generating flight path plans capable of being plugged into QGroundControl for a drone.  
+                </text>
+            </div>
+        </div>
+    </body>
+</html>
