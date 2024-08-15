@@ -1,10 +1,11 @@
 * {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
 }
 
 #container {
     flex: 1;
-    background-color: rgb(17 24 39 / 0.9);
+    background-color: rgba(0, 10, 12, 0.98);
 }
 
 #header {
@@ -141,7 +142,7 @@ a#scroll-button:after {
 }
 
 #welcome {
-    background-color: #282828;
+    background-color: rgb(17 24 39 / 0.9);
     padding: 50px;
     flex: 7;
     flex-direction: row-reverse;
@@ -195,7 +196,7 @@ a#scroll-button:after {
     height: fit-content;
     aspect-ratio: 1/1;
     width: 30%;
-    background-color: white;
+    background-color: rgb(17 24 39 / 0.9);
     padding: 50px;
     border-radius: 25px;
     transition: transform ease 0.5s, box-shadow ease 0.5s, width ease 0.5s, height ease 0.5s, margin-bottom ease 0.5s;
@@ -207,6 +208,7 @@ a#scroll-button:after {
 }
 
 #work-experience {
+    margin-top: 50px;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -233,7 +235,7 @@ a#scroll-button:after {
 .experience {
     padding: 50px;
     border-radius: 15px;
-    background-color: #282828;
+    background-color: rgb(17 24 39 / 0.9);
     flex: 1;
     display: flex;
     justify-content: center; 
@@ -260,6 +262,7 @@ a#scroll-button:after {
 }
 
 #projects {
+    margin-top: 50px;
     flex: 1;
     margin-left: 10%;
     margin-right: 10%;
@@ -268,7 +271,7 @@ a#scroll-button:after {
 .project {
     padding: 50px;
     border-radius: 15px;
-    background-color: #282828;
+    background-color: rgb(17 24 39 / 0.9);
     flex: 1;
     display: flex;
     justify-content: center; 
