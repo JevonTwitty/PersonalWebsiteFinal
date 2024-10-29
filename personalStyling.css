@@ -220,13 +220,19 @@ a#scroll-button:after {
 }
 
 #jobs {
+    flex-direction: column;
+    flex: 1;
+    display: flex;
+}
+
+#jobs-inner {
     flex-direction: row;
     flex: 1;
     display: flex;
 }
 
 @media (max-width: 1000px) {
-    #jobs {
+    #jobs-inner {
         gap: 50px;
         flex-direction: column;
     }
@@ -259,6 +265,21 @@ a#scroll-button:after {
 #better-place-drones {
     width: 300px;
     margin-bottom: 30px;
+}
+
+#memoir-ai {
+}
+
+@media (min-width: 1200px) {
+    #memoir-ai {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    #memoir-ai {
+        width: 80%
+    }
 }
 
 #projects {
